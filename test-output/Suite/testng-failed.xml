@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.contactTest.ContactTest">
+        <methods>
+          <include name="ConfigBM"/>
+          <include name="ConfigAM"/>
+          <include name="configBc"/>
+          <include name="DeleteContactTest"/>
+        </methods>
+      </class> <!-- com.crm.contactTest.ContactTest -->
+      <class name="com.crm.CompaignTest.CompaignTest">
+        <methods>
+          <include name="DeleteCompaignTest"/>
+          <include name="ConfigBM"/>
+          <include name="configBc"/>
+          <include name="CreateCompaignTest"/>
+        </methods>
+      </class> <!-- com.crm.CompaignTest.CompaignTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
